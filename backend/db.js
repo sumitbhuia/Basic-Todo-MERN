@@ -9,7 +9,7 @@ const mongoose = require('mongoose')
         }
 */
 
-mongoose.connect("mongodb+srv://admin:GdkPbMqi9iASCz10@cluster0.tanlola.mongodb.net/")
+mongoose.connect("mongodb connection url")
 const todoSchema = mongoose.Schema({
     title : String , 
     description : String , 
