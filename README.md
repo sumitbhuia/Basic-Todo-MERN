@@ -1,8 +1,8 @@
 # Full-Stack Todos APP
-> I love todo apps , one of my favourite is google tasks . So though od designing one myself . [Here is my GIthub](https://github.com/sumitbhuia) . Do leave a star .
+> I love todo apps , one of my favourite is google tasks . So though od designing one myself .
 - **Frontend** - React
 
-- **Backend**- express, jwt, zod
+- **Backend**- express, jwt, zod , nodejs ,monogo
 
   
 
@@ -10,15 +10,10 @@
 
 - Different routes for
 
-- /todos/signin
-
-- /toods/signup
-
-- /todos/create
-
+- /todos/create 
+- /todos/delete 
+- /todos/mark - marks as completed
 - /todos/ - view all todos
-
-- A button to mark them as done
 
 
 ## Flow chart 
@@ -28,11 +23,14 @@
 ```mermaid
 
 graph LR
-A[User]-- localhost/3000 --> B((/))
-B --> C(Auth)
-C --> D(/signin)
-C --> E(/signup)
-D --> F{/todos}
-E --> F
-F --> /ceate
+A[User]-- localhost:3000 --> F((/))
+
+F{/todos}
+
+F --> /create
 F --> /mark
+F --> /delete
+```
+# Images![todopic](https://github.com/sumitbhuia/Basic-Todo-MERN/assets/110191269/22df37f9-c6a4-460c-adee-4a1b47282813)
+
+
